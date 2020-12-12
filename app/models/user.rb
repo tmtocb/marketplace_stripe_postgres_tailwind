@@ -4,4 +4,5 @@ class User < ApplicationRecord
 
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+  has_many :projects, dependent: :destroy # if the user is destroyed, project is too
 end
