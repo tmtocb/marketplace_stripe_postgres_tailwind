@@ -7,15 +7,15 @@
 }
 
 .btn-default {
-  @apply bg-white border border-gray-400 text-gray-700;
+  @apply bg-blue-600 border border-gray-400 text-white;
 
   &:hover, &:focus {
-    @apply border-gray-500;
+    @apply border-gray-500 bg-blue-500;
   }
 }
 
 .link {
-  @apply no-underline text-gray-700;
+  @apply no-underline;
 
   &:hover, &:focus {
     @apply text-gray-700;
@@ -31,7 +31,7 @@
 }
 
 .label {
-  @apply block text-gray-700 text-sm font-bold mb-2;
+  @apply block text-sm font-bold mb-2;
 }
 
 .select {
@@ -42,4 +42,13 @@
 
 .select:focus {
   @apply outline-none bg-white border-gray-400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-white;
 }
