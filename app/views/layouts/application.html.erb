@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Back My Idea</title>
+    <title>Marketplace Stripe</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,7 +13,7 @@
 
   </head>
 
- <body class="bg-blue-400 text-blue-100">
+ <body class="bg-blue-500 text-blue-100">
 
   <% flash.each do |type, message| %>
     <% if type == "alert" %>
@@ -31,7 +31,7 @@
     <header class="mb-4">
       <nav class="flex items-center justify-between flex-wrap py-3 lg:px-10 px-3">
         <div class="flex items-center flex-no-shrink mr-6">
-          <%= link_to "Back My Idea", root_path, class:"link text-lg tracking-wider font-semibold uppercase" %>
+          <%= link_to "Marketplace Stripe", root_path, class:"link text-2xl tracking-wider font-semibold uppercase" %>
         </div>
         <div class="block lg:hidden">
           <button class="flex items-center px-3 py-2 border rounded text-white border-gray-500 hover:text-gray-200 hover:border-gray-200">
