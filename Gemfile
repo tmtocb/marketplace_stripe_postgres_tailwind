@@ -15,6 +15,7 @@ gem 'redis', '~> 4.0'
 gem 'sidekiq', '~> 5.0', '>= 5.0.5'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
+gem 'friendly_id', '~> 5.4.0'
 
 
 group :development, :test do
